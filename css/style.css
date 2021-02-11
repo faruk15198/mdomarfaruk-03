@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+img{
+    max-width: 100%;
+}
+#angchortag{text-decoration:none;color: #14621a;}
+header {}
+
+.mainpage {
+    width: 1340px;
+    margin: auto;
+}
+
+.container {
+    width: 1337px;
+    margin: auto;
+}
+
+.alllogo_menuinner {
+    margin: 0px;
+}
+
+.logo_menuinner {
+}
+
+.logoname {
+    float: left;
+    font-family: fantasy;
+    width: 450px;
+    margin: auto;
+    padding: 11px 0px;
+}
+
+.logo {
+    width: 62px;
+    float: left;
+    padding-left: 51px;
+}  
+.logotext{
+    color: #00ff15;
+    float: left;
+    font-size: 30px;
+    padding: 8px 4px;
+    
+    text-decoration:none;
+    text-shadow: 0 0 10px #19e308, 0 0 40px #19e308, 0 0 80px #19e308;
+}
+.logotext:hover{
+
+}
+.menu_inner {
+    float: right;
+    width: 850px;
+}
+
+#menuUl {
+    list-style: none;
+}
+
+#menuUl li {
+    float: right;
+    display: inline;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+#menuUl li a {
+    font-family: arial;
+    font-size: 15px;
+    text-decoration: none;
+    color: #052429;
+    transition: .5s;
+    padding-right: 15px; padding-left:15px;
+    padding-top: 35px;
+}
+
+#menuUl li a:hover {
+    font-family: arial;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffa500;
+    border-bottom: 2px solid #ffa500;
+    padding-bottom: 5px; padding-right:15px; padding-left:15px
+}
+
+.others {
+    width: 1340px;
+    color: #f35423;
+    background: #f2f7f9;
+    text-align: center;
+    padding-top: 0px;    overflow: hidden;
+}
+
+.inrole_over {
+    color: #0a0a0a;
+    font-size: 25px;
+    padding: 5px;
+    margin:20px;
+    border: #2dc8ea 1px solid;
+    border-radius: 20px;
+}
+#marqueetaxt{
+    font-family:kalpurush;
+
+}
+.image {
+    width: 100%;
+}
+
+.mydetails {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 4px solid#ff980070;
+    border-top: 4px solid #ff980070;
+    margin-top: 11px;
+}
+
+.mypic {
+    width: 300px;
+    margin: auto;
+    float: left;
+    padding: 28px 107px;
+}
+
+.about_myself {
+    width: 704px;
+    padding: 14px 60px;
+    text-align: center;
+    margin-top: 72px;
+    float: right;
+}
+
+#htitle {
+    font-family: arial;
+    color: #ffbd01;
+    font-size: 40px;
+    border-bottom: 2px solid orange;
+    text-align: center;
+    text-shadow: 3px 11px 8px #ffbd01;
+    padding-bottom: 13px;
+}
+#myperagraph{
+    padding-top: 15px; color:#7c7e80; font-size:20px; font-family:cursive;
+}
+
+#peragraph {
+    font-family: cursive;
+    font-size: 15px;
+    color: #7a8fa5;
+}
+
+.allcontent {
+    background: #f2f7f9;
+    width: 1340px;
+}
+
+#Tittle {
+    color: white;
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-family: cursive;
+    font-size: 33px;
+}
+
+.firstand_second {
+    text-align: center;
+    width: 1340px;
+    color: white;
+    overflow: hidden;
+}
+
+.leftcontent {
+    background: #414b4e;
+    width: 300px;
+    float: left;
+    margin: 100px;
+    padding: 20px;
+    border: 5px solid #00adff85;
+}
+
+.middlecontent {
+    background: #4c5248;
+    float: right;
+    width: 300px;
+    margin: 100px;
+    padding: 20px;
+    border: 5px solid #72d287bf;
+}
+
+.vedioand_content {
+    padding: 13px 139px;
+    overflow: hidden;
+    border: 5px solid #fbe80bbf;
+    margin: auto;
+}
+
+.test_bedio {
+    width: 1340px;
+    display: inline;
+    padding: 0px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.first_video {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    border: orange 2px solid;
+}
+
+.second_2all {
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+.secound_video {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    border: #5eff0c 2px solid;
+}
+
+.third_video {
+    float: right;
+    padding: 5px;
+    margin: 10px;
+    border: red 1px solid;
+}
+
+.alllast_content {
+    padding: 0px;
+}
+
+.content_all {
+    overflow: hidden;
+    padding: 70px;
+    text-align: center;
+    color: #ddd;
+}
+
+.lastcontent_third {
+    width: 338px;
+    border: red 2px solid;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background: #414b4e;
+}
+
+.lastcontent_one {
+    width: 338px;
+    border: 2px solid #ffa500;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background: #414b4e;
+    color: #ddd;
+}
+
+.lastcontent_tow {
+    width: 338px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid orange;
+    float: left;
+    background: #414b4e;
+}
+.footerdesign{
+    border-bottom: 2px solid #ffa500; padding-bottom: 10px;
+}
+.fotter {
+    background: #29416d;
+    padding: 30px;
+    font-size: 15px;
+    color: orange;
+    text-align: center;
+    font-family: arial;
+    margin:auto;
+}
